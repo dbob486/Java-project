@@ -1,0 +1,26 @@
+import java.util.*;
+public class commands {
+
+	public static void main(String[] args) {
+		System.out.println( "Where would you like to go");
+		Scanner place = new Scanner(System.in);
+		String location=place.nextLine();
+		direction(location);
+		
+		
+
+	}
+	public static void direction(String location) {
+		String north= "North";
+		String south= "South";
+		String west= "West";
+		String east= "East";
+		if(
+		
+	}
+	public static boolean ignoreCases(String location){
+		boolean north = location.equalsIgnoreCase(location);
+		return north;
+	}
+}
+
